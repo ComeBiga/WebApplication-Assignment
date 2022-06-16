@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check_id(){
+            var userid = document.getElementById("uid").value;
+            if(userid){
+                url = "member_check_id.php?userid="+userid;
+                window.open(url,"IDchk", "width=400, height=200");
+            }
+            else
+                alert("아이디를 입력하세요.");
+        }
+        function check_pw(){
+            var pw1 = document.getElementById("pw1").value;
+            var pw2 = document.getElementById("pw2").value;
+
+            if(pw1 != pw2)
+            {
+                alert("패스워드가 일치하지 않습니다.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form action="member_insert.php" method="post">
+        <ul>
+            <li><label></label><input type="text" name="id" id="uid" placeholder="아이디" required autofocus> <input type="button" value="중복확인" onclick="check_id()"></li>
+            <li><label></label><input type="password" name="pass" id="pw1" placeholder="비밀번호" required></li>
+            <li><label></label><input type="password" name="pass_chk" id="pw2" placeholder="비밀번호 확인" required></li>
+            <li><label></label><input type="text" name="name" placeholder = "이름" required></li>
+            <li><label></label><input type="email" name="email" id="" required placeholder="example@email.com"></li>
+        </ul>
+        <input type="submit" value="저장하기" onclick="check_pw()"> <input type="reset" value="취소하기">
+    </form>
+
+</body>
+</html>

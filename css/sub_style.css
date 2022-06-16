@@ -1,0 +1,48 @@
+.job_list_wrap .job_list_search_table table{
+    margin-bottom: 15px;
+    width: 100%;
+    table-layout: fixed;
+    border-bottom: 2px solid #b7b7b7;
+    /*border-top: 3px solid #0069b0;*/
+}
+.job_list_wrap .job_list_search_table th{
+   font-size: 14px;
+   padding: 8px 10px;
+   line-height: 20px;
+}
+.job_list_wrap .job_list_search_table td{
+    vertical-align: middle;
+    border-left: 1px solid #b7b7b7;
+    border-top: 1px solid #b7b7b7;
+    font-size: 16px;
+    color: #666;
+    line-height: 22px;
+    padding: 0 30px;
+    word-break: keep-all;
+ }
+ .job_list_wrap .job_list_search_table tr.row1 td select {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    font-size: 13px;
+    height: 25px;
+}
+.job_list_wrap .job_list_search_table .job_search_btn {
+    font-size: 14px;
+    line-height: 40px;
+    width: 120px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: #0069b0;
+    width: 150px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.job_list_wrap .job_list_top {
+    margin-bottom: 15px;
+}

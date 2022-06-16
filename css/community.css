@@ -1,0 +1,134 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+#sub_main #sub_contents article img{
+    margin: 30px 0;
+    width: 100%;
+}
+#sub_main #sub_text div{
+    padding: 40px 0;
+    border: 1px solid #ddd;
+}
+#sub_main #sub_text div h2{
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+}
+#sub_main #sub_text div p{
+    width: 75%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: small;
+    color: #555;
+}
+#sub_main #sub_text div p:nth-child(2){
+    color: #bbb;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+#sub_main #sub_text div p:nth-child(5){
+    color: royalblue;
+    font-weight: bold;
+}
+#sub_main #sub_contact div{
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    margin: 150px 0 80px 0;
+}
+#sub_main #sub_contact div h5{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+#sub_main #sub_contact div h5 span{
+    padding: 0 20px;
+    font-weight: normal;
+    color: #777;
+}
+
+#sub_main #sub_contents #search_form {
+    padding: 10px;
+    float: right;
+}
+
+#sub_main #sub_contents table {
+    clear:both;
+    float: none;
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 18px;
+    margin: 0;
+    font-size: 1em;
+    font-family: "Nanum Gothic", "맑은고딕", "굴림", "돋움", sans-serif;
+    padding: 11px 5px 7px;
+}
+
+#sub_main #sub_contents th {
+    color: #3d3d3d;
+    padding: 11px 5px 7px;
+    background-image: url(../img/board_bg.gif);
+    background-repeat: repeat-x;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+#sub_main #sub_contents td {
+    border-bottom: 1px solid #eee;
+    height: 20px;
+    line-height: 28px;
+}
+
+#sub_main #sub_contents th:first-child, td:first-child {
+    text-align: center;
+}
+
+#sub_main #sub_contents #contents{
+    clear: both;
+    width: 100%;
+    min-height: 400px;
+    border-top: 1px solid #BDBDBD;
+    padding-top: 40px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#sub_main #sub_contents #page_head{
+    float: left;
+    margin: 0 0 18px 0;
+    height: 21px;
+    line-height: 100%;
+}
+
+#sub_main #sub_contents #location{
+    float: right;
+    font-size: 11px;
+    padding-top: 8px;
+    color: #a7a7a7;
+}
+
+.jn_num{
+    width: 50px;
+    text-align: center;
+}
+.jn_title{
+    text-align: left;
+}
+.jn_author{
+    width: 100px;
+    text-align: center;
+}
+.jn_ad{
+    width: 40px;
+    text-align: center;
+}
+.jn_date{
+    width: 115px;
+    text-align: center;
+}
+.jn_vCount{
+    width: 60px;
+    text-align: center;
+}
